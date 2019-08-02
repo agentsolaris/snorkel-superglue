@@ -58,8 +58,7 @@ def parse(jsonl_path, tokenizer, max_data_samples, max_sequence_length):
         if len(sent1_tokens) + len(sent2_tokens) > max_len:
             max_len = len(sent1_tokens) + len(sent2_tokens)
 
-        while 
-        :
+        while True:
             total_length = len(sent1_tokens) + len(sent2_tokens)
             # Account for [CLS], [SEP], [SEP] with "- 3"
             if total_length <= max_sequence_length - 3:
