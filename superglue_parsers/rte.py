@@ -45,7 +45,7 @@ def parse(jsonl_path, tokenizer, max_data_samples, max_sequence_length):
         index = row["idx"]
         sentence1 = row["premise"]
         sentence2 = row["hypothesis"]
-        label = row["label"] if "label" in row else "entailment"
+        label = row["label"] if "label" in row else True
 
         sentence1s.append(sentence1)
         sentence2s.append(sentence2)
