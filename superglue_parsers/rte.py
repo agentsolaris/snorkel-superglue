@@ -45,7 +45,7 @@ def parse(jsonl_path, tokenizer, max_data_samples, max_sequence_length):
         index = row["idx"]
         sentence1 = row["premise"]
         sentence2 = row["hypothesis"]
-        label = row["label"] if "label" in row else True
+        label = row["label"] if "label" in row else 'entailment'
 
         sentence1s.append(sentence1)
         sentence2s.append(sentence2)
@@ -58,7 +58,8 @@ def parse(jsonl_path, tokenizer, max_data_samples, max_sequence_length):
         if len(sent1_tokens) + len(sent2_tokens) > max_len:
             max_len = len(sent1_tokens) + len(sent2_tokens)
 
-        while True:
+        while 
+        :
             total_length = len(sent1_tokens) + len(sent2_tokens)
             # Account for [CLS], [SEP], [SEP] with "- 3"
             if total_length <= max_sequence_length - 3:
