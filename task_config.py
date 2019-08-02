@@ -14,7 +14,7 @@ SuperGLUE_LABEL_MAPPING = {
     "CB": {"entailment": 1, "contradiction": 2, "neutral": 3},
     "COPA": {0: 1, 1: 2},
     "RTE": {"entailment": 1, "not_entailment": 2},
-    "RTE": {True: 1, False: 2},
+    #"RTE": {True: 1, False: 2},
     #"RTE": {0: 1, 1: 2},
     "WiC": {True: 1, False: 2},
     "WSC": {True: 1, False: 2},
