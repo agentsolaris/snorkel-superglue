@@ -6,7 +6,7 @@ from task_config import SuperGLUE_TASK_SPLIT_MAPPING
 from tokenizer import get_tokenizer
 
 from pytorch_pretrained_bert import BertTokenizer
-from metal.mmtl.data import MmtlDataLoader
+from snorkel.mtl.data import MultitaskDataLoader
 
 
 logger = logging.getLogger(__name__)
@@ -51,7 +51,7 @@ def get_dataloaders(
         dataset = get_dataset(
             data_dir, task_name, split, tokenizer, max_data_samples, max_sequence_length
         )
-        dataloader = MmtlDataLoader(
+        dataloader = MultitaskDataLoader(
             task_to_label_dict={task_name: "labels"},
             dataset=dataset,
             split=split,
