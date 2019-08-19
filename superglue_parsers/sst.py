@@ -94,6 +94,6 @@ def parse(jsonl_path, tokenizer, max_data_samples, max_sequence_length):
             "token_masks": bert_token_masks,
             "token_segments": bert_token_segments,
         },
-        Y_dict={"label": labels},
+        Y_dict={"labels": labels},
     )
 
