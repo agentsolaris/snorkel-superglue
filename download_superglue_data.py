@@ -24,7 +24,7 @@ TASK2PATH = {
     "RTE": "https://dl.fbaipublicfiles.com/glue/superglue/data/RTE.zip",
     "WiC": "https://dl.fbaipublicfiles.com/glue/superglue/data/WiC.zip",
     "WSC": "https://dl.fbaipublicfiles.com/glue/superglue/data/WSC.zip",
-    "MRPC": "https://www.dropbox.com/s/npz03yaa06q1kcc/mrpc.zip?dl=0",
+    "MRPC": "https://www.dropbox.com/s/npz03yaa06q1kcc/mrpc.zip?dl=1",
     "diagnostic": "https://www.dropbox.com/s/ju7d95ifb072q9f/diagnostic-full.tsv?dl=1",
 }
 
