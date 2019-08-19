@@ -25,7 +25,7 @@ TASK2PATH = {
     "WiC": "https://dl.fbaipublicfiles.com/glue/superglue/data/WiC.zip",
     "WSC": "https://dl.fbaipublicfiles.com/glue/superglue/data/WSC.zip",
     "MRPC": "https://www.dropbox.com/s/npz03yaa06q1kcc/mrpc.zip?dl=1",
-    "SST": "https://firebasestorage.googleapis.com/v0/b/mtl-sentence-representations.appspot.com/o/data%2FSST-2.zip?alt=media&token=aabc5f6b-e466-44a2-b9b4-cf6337f84ac8",
+    "SST": "https://www.dropbox.com/s/yhaba2469yzel0o/SST.zip?dl=1",
     "diagnostic": "https://www.dropbox.com/s/ju7d95ifb072q9f/diagnostic-full.tsv?dl=1",
 }
 
