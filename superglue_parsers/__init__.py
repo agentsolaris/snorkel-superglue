@@ -9,5 +9,5 @@ parser = {
     "WSC": wsc.parse,
     "SWAG": swag.parse,
     "MRPC": mrpc.parse,
-    "SST": mrpc.parse,
+    "SST": sst.parse,
 }
