@@ -1,9 +1,10 @@
-SuperGLUE_TASK_NAMES = ["CB", "COPA", "MultiRC", "RTE", "WiC", "WSC"]
+SuperGLUE_TASK_NAMES = ["CB", "COPA", "MultiRC", "RTE", "WiC", "WSC", "MRPC"]
 
 SuperGLUE_TASK_SPLIT_MAPPING = {
     "CB": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
     "COPA": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
     "MultiRC": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
+    "MRPC": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
     "RTE": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
     "WiC": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
     "WSC": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
@@ -16,6 +17,7 @@ SuperGLUE_LABEL_MAPPING = {
     "RTE": {"entailment": 1, "not_entailment": 2},
     #"RTE": {True: 1, False: 2},
     #"RTE": {0: 1, 1: 2},
+    "MRPC": {"0":"1", "1":"2"}
     "WiC": {True: 1, False: 2},
     "WSC": {True: 1, False: 2},
     "MultiRC": {True: 1, False: 2},
@@ -30,6 +32,7 @@ SuperGLUE_TASK_METRIC_MAPPING = {
     "CB": ["accuracy"],
     "COPA": ["accuracy"],
     "MultiRC": ["f1"],
+    "MRPC": ["accuracy", "f1"]
     "RTE": ["accuracy"],
     "WiC": ["accuracy"],
     "WSC": ["accuracy"],
