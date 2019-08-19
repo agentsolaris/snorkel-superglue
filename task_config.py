@@ -9,7 +9,7 @@ SuperGLUE_TASK_SPLIT_MAPPING = {
     "WiC": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
     "WSC": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
     "SWAG": {"train": "train.csv", "valid": "val.csv", "test": "test.csv"},
-    "SST": {"train": "train.csv", "valid": "val.csv", "test": "test.csv"},
+    "SST": {"train": "train.jsonl", "valid": "val.jsonl", "test": "test.jsonl"},
 }
 
 SuperGLUE_LABEL_MAPPING = {
