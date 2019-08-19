@@ -9,5 +9,5 @@ task_funcs = {
     "WSC": wsc.build_task,
     "SWAG": swag.build_task,
     "MRPC": mrpc.build_task,
-    "SST": mrpc.build_task,
+    "SST": sst.build_task,
 }
