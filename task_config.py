@@ -32,7 +32,7 @@ SuperGLUE_TASK_METRIC_MAPPING = {
     "CB": ["accuracy"],
     "COPA": ["accuracy"],
     "MultiRC": ["f1"],
-    "MRPC": ["accuracy", "f1"]
+    "MRPC": ["accuracy"]
     "RTE": ["accuracy"],
     "WiC": ["accuracy"],
     "WSC": ["accuracy"],
